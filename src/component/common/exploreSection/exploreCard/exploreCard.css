@@ -1,0 +1,91 @@
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.explore-card-cover{
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.delivery-time{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.discount{
+    position: absolute;
+    left:0px;
+    bottom:14px;
+    background-color: red;
+    color: var(--primary-bg);
+    font-size:14px;
+    padding: 0px 16px;
+    border-radius: 10px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+
+}
+
+.res-row{
+    display:flex;
+    justify-content: space-between;
+    
+    padding:8px 0px 6px;
+}
+
+.res-name{
+    max-width: 200px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+.res-rating{
+    padding:0px 5px;
+    font-size: 12px;
+    font-weight:600;
+    background-color: green;
+    border-radius: 6px;
+    height: 24px;
+    
+}
+
+.res-rating i{
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.res-price{
+    font-size:14px;
+
+}
+
+.explore-card:hover{
+    background-color: white;
+    border:1px solid var(--grey);
+    cursor: pointer;
+}
