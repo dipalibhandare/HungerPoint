@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+F:\knowledge IT\PROJECT\final pgrm\hungerpoint (1)\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1885983617.index
+3178840469.index
+3630490824.index
+3123280806.index
